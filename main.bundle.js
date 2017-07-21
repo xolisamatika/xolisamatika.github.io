@@ -323,7 +323,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var EventService = (function () {
     function EventService(http) {
         this.http = http;
-        this.hostUrl = 'http://laravel-rest52.dev'; // URL to web API
+        this.hostUrl = 'https://laravel-rest52.dev'; // URL to web API
         this.basePath = '/api/v1'; // URL to web API
     }
     EventService.prototype.getEvents = function () {
