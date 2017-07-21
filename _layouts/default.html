@@ -1,1 +1,29 @@
-
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/events">All Events</a></li>
+	        		<li><a href="/create">New Event</a></li>
+	        		<li><a href="/search">Search</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="mailto:xolisamatika@gmail.com">email</a></li>
+	        		<li><a href="https://github.com/xolisamatika">github.com/xolisamatika</a></li>
+				</ul>
+			</footer>
+		</body>
+	</html>
