@@ -1,0 +1,25 @@
+{
+  "name": "cv-portfolio-website",
+  "version": "1.0.0",
+  "description": "A personal portfolio and CV website for Xolisa Matika, showcasing skills, experience, and projects.",
+  "main": "src/js/main.js",
+  "scripts": {
+    "start": "live-server public",
+    "build": "echo 'Build process not defined yet.'",
+    "test": "echo 'No tests defined.'"
+  },
+  "keywords": [
+    "portfolio",
+    "cv",
+    "website",
+    "xolisa matika"
+  ],
+  "author": "Xolisa Matika",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

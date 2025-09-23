@@ -1,0 +1,92 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f7f9fb;
+  color: #222;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 32px 24px 16px 24px;
+}
+
+header {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 18px;
+  margin-bottom: 28px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #1a73e8;
+  margin-bottom: 8px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin-bottom: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1a73e8;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #174ea6;
+}
+
+.contact {
+  font-size: 1rem;
+  color: #444;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.section {
+  margin-bottom: 32px;
+}
+
+.section h2 {
+  color: #174ea6;
+  margin-bottom: 12px;
+  font-size: 1.6rem;
+}
+
+.footer {
+  text-align: center;
+  color: #888;
+  font-size: 0.95rem;
+  margin-top: 40px;
+  padding: 16px 0 0 0;
+  border-top: 1px solid #e0e0e0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .container {
+    padding: 12px 4px;
+  }
+  nav ul {
+    flex-direction: column;
+    gap: 8px;
+  }
+  header h1 {
+    font-size: 2rem;
+  }
+}
