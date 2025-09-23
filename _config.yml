@@ -37,7 +37,7 @@ plugins:
   - jekyll-feed
   # - jekyll-remote-theme
 
-google_analytics: [G-RW6KHB9QK8]
+google_analytics: G-RW6KHB9QK8
 
 # Exclude from processing.
 # The following items will not be processed, by default.
