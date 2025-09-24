@@ -34,10 +34,13 @@ Key highlights:
 
 ## **Skills**
 
-**Languages & Frameworks:** Java, Spring Boot, PHP, Node.js, Angular
-**Cloud & DevOps:** AWS, Docker, Kubernetes, Terraform, Helm, Ansible
-**Databases & Messaging:** PostgreSQL, MS SQL Server, MySQL, Cassandra, Kafka, RabbitMQ
-**Other:** Git, CI/CD, Agile, Camunda
+ **Languages & Frameworks:** Java, Spring Boot, PHP, Node.js, Angular
+
+ **Cloud & DevOps:** AWS, Docker, Kubernetes, Terraform, Helm, Ansible
+
+ **Databases & Messaging:** PostgreSQL, MS SQL Server, MySQL, Cassandra, Kafka, RabbitMQ
+  
+ **Other:** Git, CI/CD, Agile, Camunda
 
 ---
 
